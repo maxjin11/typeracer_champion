@@ -81,7 +81,7 @@ def main():
     # real races against typeracer terms of service, to use: remove state=DISABLED
     button_real = Button(root, text="Enter a real race", command=real_race, padx=40, pady=40, borderwidth=5, state=DISABLED)
     button_practice = Button(root, text="Enter the practice track", command=practice_race, padx=40, pady=40, borderwidth=5)
-    button_play_again = Button(root, text="Play the same race again", command=play_again, padx=150, pady=40, borderwidth=5)
+    button_play_again = Button(root, text="Play the same race again", command=play_again, padx=136, pady=40, borderwidth=5)
     button_quit = Button(root, text="Exit the race track", command=kill_program, padx=158, pady=40, borderwidth=5)
     
     title.grid(row=0, column=0, columnspan=2)
